@@ -39,15 +39,21 @@ export default function PageShell({ eyebrow, title, children }: PageShellProps) 
         </div>
       </header>
 
-      <section className="mx-auto max-w-4xl px-6 py-20">
-        <p className="mb-4 text-sm font-black uppercase tracking-[0.35em] text-pink-100">
-          {eyebrow}
-        </p>
-        <h1 className="font-display text-4xl font-black tracking-[0.02em] text-white md:text-5xl">
-          {title}
-        </h1>
-        {children}
-      </section>
+<section className="mx-auto max-w-5xl px-6 py-20">
+  <div className="rounded-[2rem] border-2 border-white/80 bg-white/20 p-8 shadow-[8px_8px_8px_rgba(41,37,36,0.65)] backdrop-blur md:p-12">
+    <p className="mb-4 text-sm font-black uppercase tracking-[0.35em] text-pink-100">
+      {eyebrow}
+    </p>
+
+    <h1 className="font-display text-4xl font-black tracking-[0.02em] text-white md:text-6xl">
+      {title}
+    </h1>
+
+    <div className="mt-8">
+      {children}
+    </div>
+  </div>
+</section>
     </main>
   );
 }

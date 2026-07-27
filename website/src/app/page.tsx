@@ -11,16 +11,16 @@ export default function Home() {
             <a href="/learn" className="transition hover:text-white">
               Learn
             </a>
-            <a href="#quick-reference" className="transition hover:text-white">
+            <a href="/quick-reference" className="transition hover:text-white">
               Quick Reference
             </a>
-            <a href="#projects" className="transition hover:text-white">
+            <a href="/projects" className="transition hover:text-white">
               Project Ideas
             </a>
-            <a href="#gallery" className="transition hover:text-white">
+            <a href="/gallery" className="transition hover:text-white">
               Gallery
             </a>
-            <a href="#faqs" className="transition hover:text-white">
+            <a href="/faqs" className="transition hover:text-white">
               FAQs
             </a>
           </nav>
