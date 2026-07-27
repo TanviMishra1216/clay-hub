@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-stone-50 text-stone-900">
-      <header className="border-b border-stone-200 bg-white">
+    <main className="min-h-screen bg-pink-200 text-stone-900">
+      <header className="border-b border-pink-400 bg-red">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <h1 className="text-xl font-bold">Clay Club Learning Hub</h1>
+          <h1 className="text-xl font-bold">Clay Learning Hub</h1>
 
           <nav className="hidden gap-6 text-sm font-medium text-stone-700 md:flex">
             <a href="#learn" className="hover:text-stone-950">
