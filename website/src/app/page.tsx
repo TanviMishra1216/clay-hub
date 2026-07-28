@@ -136,7 +136,7 @@ export default function Home() {
 
       <footer className="mt-12 border-t border-[#c97b4d]/20 bg-[#f7efe4]/70">
         <div className="mx-auto max-w-6xl px-6 py-6 text-sm text-[#7a3552]">
-          Made for Clay students, by clay students.
+          Made for Clay students.
         </div>
       </footer>
     </main>
