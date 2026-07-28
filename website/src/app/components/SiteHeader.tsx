@@ -34,7 +34,16 @@ export default function SiteHeader() {
             </a>
           ))}
         </nav>
-
+        
+        {/* Mobile menu button */}
+        <button
+          type="button"
+          onClick={() => setIsOpen(true)}
+          className="rounded-full border border-[#8e1f5f]/30 px-4 py-2 text-sm font-black uppercase tracking-[0.15em] text-[#8e1f5f] md:hidden"
+        >
+          Menu
+        </button>
+      </div>
     </header>
   );
 }
