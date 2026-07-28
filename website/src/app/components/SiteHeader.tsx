@@ -14,7 +14,7 @@ export default function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="relative z-[100] border-b border-dashed border-[#c97b4d]/40 bg-[#f7efe4]/80 backdrop-blur">
+    <header className="relative z-[100] overflow-hidden border-b border-dashed border-[#c97b4d]/40 bg-[#f7efe4]/80 backdrop-blur">
       <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-[radial-gradient(circle_at_top_right,_rgba(255,140,66,0.18),_transparent_70%)]" />
 
       <div className="relative flex w-full items-center justify-between px-6 py-4 md:px-10">
