@@ -103,17 +103,24 @@ export default function Home() {
 
       <section
         id="quick-reference"
-        className="mx-auto max-w-6xl px-6 py-12"
+        className="mx-auto max-w-6xl px-6 py-8"
       >
         <div className="rounded-2xl border border-[#c97b4d]/20 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
           <h2 className="font-display text-2xl font-black tracking-[0.02em] text-[#8e1f5f]">
             Quick Reference
           </h2>
           <p className="mt-3 max-w-3xl leading-7 text-[#7a3552]">
-            Quick Reference guides are meant to be short reminders for students
-            who already learned a skill and need a fast checklist while working.
+            Quick Reference guides are meant to be a fast access way of getting to a tutorial video.
           </p>
+        </div>
 
+        <div className="mt-20 rounded-2xl border border-[#c97b4d]/20 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
+          <h2 className="font-display text-2xl font-black tracking-[0.02em] text-[#8e1f5f]">
+            Tips
+          </h2>
+          <p className="mt-3 max-w-3xl leading-7 text-[#7a3552]">
+            Here are some helpful tips for your clay projects!
+          </p>
           <div className="mt-5 rounded-xl bg-[#fff5e8] p-5 text-[#8e1f5f]">
             <h3 className="font-display text-xl font-black">Example Tip</h3>
             <p className="mt-2 text-[#7a3552]">
@@ -121,6 +128,8 @@ export default function Home() {
             </p>
           </div>
         </div>
+
+    
       </section>
 
       <section id="projects" className="mx-auto max-w-6xl px-6 py-12">
