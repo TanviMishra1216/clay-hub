@@ -34,7 +34,7 @@ export default function SiteHeader() {
             </a>
           ))}
         </nav>
-        
+
         {/* Mobile menu button */}
         <button
           type="button"
@@ -44,6 +44,50 @@ export default function SiteHeader() {
           Menu
         </button>
       </div>
+
+      {/* Dark overlay */}
+      {isOpen && (
+        <button
+          type="button"
+          aria-label="Close menu"
+          onClick={() => setIsOpen(false)}
+          className="fixed inset-0 z-40 bg-[#8e1f5f]/25 backdrop-blur-sm md:hidden"
+        />
+      )}
+
+      {/* Mobile sidebar */}
+      <aside
+        className={`fixed right-0 top-0 z-50 h-screen w-72 border-l border-[#c97b4d]/30 bg-[#fffaf2] p-6 shadow-2xl transition-transform duration-300 ease-out md:hidden ${
+          isOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div className="flex items-center justify-between">
+          <p className="font-display text-lg font-black uppercase tracking-[0.2em] text-[#8e1f5f]">
+            Menu
+          </p>
+
+          <button
+            type="button"
+            onClick={() => setIsOpen(false)}
+            className="rounded-full border border-[#8e1f5f]/30 px-3 py-1 text-sm font-black text-[#8e1f5f]"
+          >
+            ✕
+          </button>
+        </div>
+
+        <nav className="mt-10 flex flex-col gap-4 text-sm font-black uppercase tracking-[0.18em] text-[#9b3f70]">
+          {navLinks.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={() => setIsOpen(false)}
+              className="rounded-2xl border border-[#c97b4d]/20 bg-[#f7efe4] px-4 py-4 transition hover:bg-[#8e1f5f] hover:text-white"
+            >
+              {link.label}
+            </a>
+          ))}
+        </nav>
+      </aside>
     </header>
   );
 }
