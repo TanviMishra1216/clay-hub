@@ -34,7 +34,7 @@ export default function PageShell({ eyebrow, title, children }: PageShellProps) 
             <Link href="/gallery" className="transition hover:text-[#8e1f5f]">
               Gallery
             </Link>
-            <Link href="/faqs" className="transition hover:text-[#8e1f5f]">
+            <Link href="/FAQs" className="transition hover:text-[#8e1f5f]">
               FAQs
             </Link>
           </nav>

@@ -24,7 +24,7 @@ export default function Home() {
             <a href="/gallery" className="transition hover:text-[#8e1f5f]">
               Gallery
             </a>
-            <a href="/faqs" className="transition hover:text-[#8e1f5f]">
+            <a href="/FAQs" className="transition hover:text-[#8e1f5f]">
               FAQs
             </a>
           </nav>
