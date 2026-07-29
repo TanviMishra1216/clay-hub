@@ -42,7 +42,7 @@ export default function Home() {
       </section>
     
       <div className="relative isolate overflow-hidden border-y border-[#c97b4d]/20 bg-[#faf1e4]">
-       <div className="pointer-events-none absolute right-[-24rem] top-[-36rem] -z-10 h-[80rem] w-[80rem] rounded-full bg-[radial-gradient(circle,_rgba(255,235,205,0.95)_0%,_rgba(255,174,92,0.21)_30%,_rgba(255,205,148,0.12)_58%,_rgba(255,224,190,0.05)_78%,_transparent_60%)] blur-[100px]" />
+       <div className="pointer-events-none absolute right-[-48rem] top-[-36rem] -z-10 h-[80rem] w-[110rem] rounded-full bg-[radial-gradient(circle,_rgba(255,235,205,0.95)_0%,_rgba(255,174,92,0.21)_30%,_rgba(255,205,148,0.12)_58%,_rgba(255,224,190,0.05)_78%,_transparent_100%)] blur-[100px]" />
         <section className="w-full px-6 py-20 md:px-12 lg:px-20">
           <div className="mb-8">
             <h2 className="font-display text-3xl font-black tracking-[0.02em] text-[#8e1f5f]">
@@ -81,7 +81,7 @@ export default function Home() {
           id="quick-reference"
           className="mx-auto max-w-6xl px-6 py-8"
         >
-          <div className="rounded-2xl border border-[#c97b4d]/20 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
+          <div className="rounded-2xl border border-[#c97b4d]/20 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)]">
             <h2 className="font-display text-2xl font-black tracking-[0.02em] text-[#8e1f5f]">
               Quick Reference
             </h2>
@@ -90,7 +90,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-20 rounded-2xl border border-[#c97b4d]/20 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
+          <div className="mt-20 rounded-2xl border border-[#c97b4d]/20 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)]">
             <h2 className="font-display text-2xl font-black tracking-[0.02em] text-[#8e1f5f]">
               Tips
             </h2>
@@ -108,8 +108,8 @@ export default function Home() {
       </div>
      
       <div className="relative isolate overflow-hidden border-y border-[#c97b4d]/1 bg-[#faf1e4]">
-       <div className="pointer-events-none absolute left-[-12rem] top-[-15rem] -z-10 h-[52rem] w-[52rem] rounded-full bg-[radial-gradient(circle,_rgba(255,140,66,0.34)_0%,_rgba(255,174,92,0.22)_32%,_rgba(255,205,148,0.12)_58%,_transparent_75%)]" />
-        <section id="projects" className="mx-auto max-w-6xl px-6 py-12">
+       <div className="pointer-events-none absolute left-[-12rem] top-[-15rem] -z-10 h-[80rem] w-[80rem] rounded-full bg-[radial-gradient(circle,_rgba(255,140,66,0.34)_0%,_rgba(255,235,205,0.95)_32%,_rgba(255,205,148,0.12)_58%,_transparent_100%)] backdrop-blur" />
+        <section id="projects" className="w-full px-6 py-20 md:px-12 lg:px-20">
           <h2 className="font-display text-3xl font-black tracking-[0.02em] text-[#8e1f5f]">
             Project Ideas
           </h2>
