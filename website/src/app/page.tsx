@@ -4,8 +4,7 @@ import SiteHeader from "./components/SiteHeader";
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(255,235,205,0.95)_0%,_rgba(250,244,232,0.98)_45%,_#f7efe4_100%)] text-[#8e1f5f]">
-      <div className="pointer-events-none absolute bottom-[-8rem] right-[-6rem] h-72 w-72 rounded-full bg-[radial-gradient(circle,_rgba(255,140,66,0.16),_transparent_60%)]" />
-      <SiteHeader /> 
+      <div className="pointer-events-none absolute bottom-[-8rem] right-[-6rem] h-72 w-72 rounded-full bg-[radial-gradient(circle,_rgba(255,140,66,0.16),_transparent_60%)]" />      <SiteHeader /> 
       <section className="flex min-h-[calc(100vh-72px)] w-full flex-col justify-center px-6 py-20 md:px-12 lg:px-20">        
         <p className="mb-4 text-sm font-black uppercase tracking-[0.35em] text-[#9b3f70]">
           Student Resource Hub
@@ -32,7 +31,7 @@ export default function Home() {
 
           <a
             href="/project-ideas"
-            className="group rounded-full border border-[#8e1f5f]/30 px-6 py-3 text-center text-sm font-black uppercase tracking-[0.2em] text-[#8e1f5f] transition hover:bg-[#8e1f5f]/10"
+            className="group rounded-full border border-[#8e1f5f]/30 px-6 py-3 text-center text-sm font-black uppercase tracking-[0.2em] text-[#8e1f5f] transition hover:bg-[#8e1f5f]/20"
           >
             <span className="inline-block transition-transform group-hover:-translate-y-1">
               Browse Project Ideas →
