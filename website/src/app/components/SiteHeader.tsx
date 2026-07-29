@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 const navLinks = [
   { label: "Learn", href: "/learn" },
@@ -19,7 +20,9 @@ export default function SiteHeader() {
 
       <div className="relative flex w-full items-center justify-between px-6 py-4 md:px-10">
         <h1 className="font-display text-lg font-black uppercase tracking-[0.2em] text-[#8e1f5f] md:text-xl">
-          Clay Learning Hub
+          <Link href="/" className="hover:text-[#8e1f5f]">
+            Clay Learning Hub
+          </Link>
         </h1>
 
         {/* Desktop nav */}
