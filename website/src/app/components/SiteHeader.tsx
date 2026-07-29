@@ -7,7 +7,7 @@ const navLinks = [
   { label: "Quick Reference", href: "/quick-reference" },
   { label: "Project Ideas", href: "/project-ideas" },
   { label: "Gallery", href: "/gallery" },
-  { label: "FAQs", href: "/FAQs" },
+  { label: "FAQs", href: "/faqs" },
 ];
 
 export default function SiteHeader() {
