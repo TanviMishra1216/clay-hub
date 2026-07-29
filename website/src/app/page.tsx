@@ -42,8 +42,7 @@ export default function Home() {
       </section>
     
       <div className="relative isolate overflow-hidden border-y border-[#c97b4d]/20 bg-[#faf1e4]">
-        <div className="pointer-events-none absolute right-[-24rem] top-[-28rem] -z-10 h-[80rem] w-[80rem] rounded-full bg-[radial-gradient(circle,_rgba(255,140,66,0.32)_0%,_rgba(255,174,92,0.21)_30%,_rgba(255,205,148,0.12)_58%,_rgba(255,224,190,0.05)_78%,_transparent_100%)]" />
-
+       <div className="pointer-events-none absolute right-[-24rem] top-[-36rem] -z-10 h-[80rem] w-[80rem] rounded-full bg-[radial-gradient(circle,_rgba(255,235,205,0.95)_0%,_rgba(255,174,92,0.21)_30%,_rgba(255,205,148,0.12)_58%,_rgba(255,224,190,0.05)_78%,_transparent_60%)] blur-[100px]" />
         <section className="w-full px-6 py-20 md:px-12 lg:px-20">
           <div className="mb-8">
             <h2 className="font-display text-3xl font-black tracking-[0.02em] text-[#8e1f5f]">
