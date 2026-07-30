@@ -6,7 +6,7 @@ export default function FAQsPage() {
     <PageShell eyebrow="FAQs" title="Frequently Asked Questions">
       <section className="w-full px-10 py-8 md:px-12 lg:px-20">
         <div className="mt-10 grid gap-6 md:grid-cols-2">
-          <ScrollReveal direction = "left">
+          <ScrollReveal direction = "left" delayMs = {0}>
             <article className="rounded-2xl border border-[#c97b4d]/30 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
             
               <h3 className="font-display text-xl font-black text-[#8e1f5f]">
@@ -20,7 +20,7 @@ export default function FAQsPage() {
             </article>
           </ScrollReveal>
 
-          <ScrollReveal direction = "right">
+          <ScrollReveal direction = "right" delayMs = {0}>
             <article className="rounded-2xl border border-[#c97b4d]/30 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
             <h3 className="font-display text-xl font-black text-[#8e1f5f]">
               What should I do if my clay is too dry?
@@ -33,7 +33,7 @@ export default function FAQsPage() {
             </article>
           </ScrollReveal>
 
-          <ScrollReveal direction = "left">
+          <ScrollReveal direction = "left" delayMs = {200}>
             <article className="rounded-2xl border border-[#c97b4d]/30 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
             <h3 className="font-display text-xl font-black text-[#8e1f5f]">
               When can I glaze my piece?
@@ -46,7 +46,7 @@ export default function FAQsPage() {
             </article>
         </ScrollReveal>
         
-          <ScrollReveal direction = "right">
+          <ScrollReveal direction = "right" delayMs = {200}>
             <article className="rounded-2xl border border-[#c97b4d]/30 bg-[#fffaf2]/80 p-6 shadow-[0_8px_24px_rgba(141,58,89,0.08)] backdrop-blur">
             <h3 className="font-display text-xl font-black text-[#8e1f5f]">
               What if I do not know what to make?
